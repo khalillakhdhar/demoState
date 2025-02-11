@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Parite from './parite';
 
 //import './App.css'
 
@@ -80,7 +81,14 @@ const handleChange = (e) => {
 <button>Envoyer</button>
 <br /><br />
 {JSON.stringify(formData)}
+<br />
+<br />
+<h2>Exercice</h2>
+<Parite></Parite>
+<br></br>
  </div>
+ 
+
  );
 
 }
